@@ -1,0 +1,35 @@
+.b{height:500px;
+width:500px;
+border:4px solid black;
+background-image: url("./flowers.jpg");
+transition: all;
+transition-duration: 1s;
+transition-timing-function:linear;
+margin-left:400px;
+margin-right:100px;
+margin-top:100px;
+background-size: cover;
+}
+div:hover{background-image: url("./red_rose.jpg");
+    border-radius: 50%;
+    border-bottom:10px solid blue;
+    border-top: 10px solid orange;
+    border-left: 10px solid limegreen;
+    border-right:10px solid red;
+    transform: rotate(360deg);
+    }
+p{
+    font-size: 50px;
+    background-color:pink;
+    color:deeppink;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
